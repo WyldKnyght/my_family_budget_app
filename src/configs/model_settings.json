@@ -1,0 +1,13 @@
+{
+    "model_name": "Meta-Llama-3.1-8B",
+    "model_path": "models\\Meta-Llama-3.1-8B",
+    "model_type": "llama",
+    "tokenizer_path": "models\\Meta-Llama-3.1-8B",
+    "max_seq_len": 2048,
+    "max_batch_size": 32,
+    "device": "cpu",
+    "load_in_8bit": false,
+    "trust_remote_code": false,
+    "use_auth_token": false,
+    "model_hash": "704cdae457f98629168289a96ec9ac86"
+}

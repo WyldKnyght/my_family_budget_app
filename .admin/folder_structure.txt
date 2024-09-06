@@ -1,0 +1,95 @@
+m:\dev_env\my_family_budget_app
+├── .env
+├── .gitignore
+├── LICENSE
+├── README.md
+├── data
+│   ├── bank_transactions
+│   │   ├── April 13, 2023.pdf
+│   │   ├── August 11, 2023.pdf
+│   │   ├── December 13, 2023.pdf
+│   │   ├── February 13, 2023.pdf
+│   │   ├── January 13, 2023.pdf
+│   │   ├── July 13, 2023.pdf
+│   │   ├── June 13, 2023.pdf
+│   │   ├── March 13, 2023.pdf
+│   │   ├── May 12, 2023.pdf
+│   │   ├── November 10, 2023.pdf
+│   │   ├── October 13, 2023.pdf
+│   │   └── September 13, 2023.pdf
+│   ├── databases
+│   │   └── pdf_info.db
+│   └── processed_transactions
+│       ├── April 13, 2023.txt
+│       ├── August 11, 2023.txt
+│       ├── December 13, 2023.txt
+│       ├── February 13, 2023.txt
+│       ├── January 13, 2023.txt
+│       ├── July 13, 2023.txt
+│       ├── June 13, 2023.txt
+│       ├── March 13, 2023.txt
+│       ├── May 12, 2023.txt
+│       ├── November 10, 2023.txt
+│       ├── October 13, 2023.txt
+│       └── September 13, 2023.txt
+├── docs
+│   └── Folder_Structure.md
+├── models
+│   └── Meta-Llama-3.1-8B
+│       ├── config.json
+│       ├── generation_config.json
+│       ├── model-00001-of-00007.safetensors
+│       ├── model-00002-of-00007.safetensors
+│       ├── model-00003-of-00007.safetensors
+│       ├── model-00004-of-00007.safetensors
+│       ├── model-00005-of-00007.safetensors
+│       ├── model-00006-of-00007.safetensors
+│       ├── model-00007-of-00007.safetensors
+│       ├── model.safetensors.index.json
+│       ├── special_tokens_map.json
+│       ├── tokenizer.json
+│       └── tokenizer_config.json
+├── src
+│   ├── __init__.py
+│   ├── configs
+│   │   ├── app_config.py
+│   │   ├── model_config.py
+│   │   ├── model_settings.json
+│   │   └── system_settings.json
+│   ├── controllers
+│   │   ├── __init__.py
+│   │   ├── model_manager.py
+│   │   └── pdf_manager.py
+│   ├── data_structures
+│   │   └── pdf_info.py
+│   ├── main.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   ├── database_service.py
+│   │   ├── model_info_service.py
+│   │   ├── model_loader_service.py
+│   │   ├── model_optimization_service.py
+│   │   ├── pdf_service.py
+│   │   └── system_info_service.py
+│   ├── utils
+│   │   ├── __init__.py
+│   │   ├── custom_logging.py
+│   │   ├── file_manager.py
+│   │   └── json_manager.py
+│   └── views
+│       ├── __init__.py
+│       ├── chat_tab.py
+│       ├── data_tab.py
+│       ├── main_window.py
+│       └── pdf_tab.py
+└── tests
+    ├── PDFParser.py
+    ├── base_settings_manager.py
+    ├── model_managers
+    │   ├── get_model_settings.py
+    │   ├── get_system_settings.py
+    │   ├── initialize_model.py
+    │   └── load_model.py
+    └── model_service.py
+
+Script last modified: 2024-09-06 18:32:59

@@ -1,0 +1,16 @@
+{
+    "os": "Windows",
+    "os_version": "11",
+    "python_version": "3.12.2",
+    "cpu_count": 4,
+    "total_ram": 31.772785186767578,
+    "cuda_available": false,
+    "cuda_version": null,
+    "gpu_count": 0,
+    "gpu_names": [],
+    "gpu_memory": [],
+    "default_device": "cpu",
+    "model_path": "models\\Meta-Llama-3.1-8B",
+    "max_memory": 25.418228149414062,
+    "system_hash": "0eda8d581680f406fea490d47dee5e1b"
+}
